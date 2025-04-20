@@ -1,142 +1,243 @@
 [
-  {
-    "title": "Avocado Toast",
-    "description": "Healthy & easy breakfast recipe.",
-    "longDescription": "Avocado toast is a simple yet versatile dish that combines creamy mashed avocados with crispy toasted bread. Popular for its nutritional benefits, this dish is often topped with eggs, cherry tomatoes, or chili flakes for added flavor. The healthy fats from avocados provide lasting energy, making it an ideal breakfast or snack.",
-    "recipe": "1. Toast 2 slices of whole grain bread.\n2. Mash 1 ripe avocado with lemon juice, salt, and pepper.\n3. Spread on toast and top with poached eggs, tomato, or chili flakes.",
-    "image": "https://images.unsplash.com/photo-1604908176712-5f03404c8a97"
-  },
-  {
-    "title": "Berry Breakfast Bowl",
-    "description": "Fruits and oats with yogurt.",
-    "longDescription": "The Berry Breakfast Bowl is a refreshing morning meal packed with antioxidants and nutrients. Combining Greek yogurt, crunchy granola, and a vibrant mix of fresh berries, this bowl offers texture and sweetness. It's a favorite for those seeking a healthy yet delicious start to the day.",
-    "recipe": "1. In a bowl, add 1 cup Greek yogurt.\n2. Top with granola, strawberries, blueberries, and raspberries.\n3. Drizzle honey and sprinkle chia seeds.",
-    "image": "https://images.unsplash.com/photo-1613145996363-0ad9d6ff5b7e"
-  },
-  {
-    "title": "Colorful Salad",
-    "description": "Fresh vegetables with lemon dressing.",
-    "longDescription": "This salad is a feast for the eyes and body. Made with a rainbow of veggies including bell peppers, cucumbers, and shredded carrots, it's tossed in a lemony vinaigrette. This salad is crunchy, zesty, and a perfect side or light meal.",
-    "recipe": "1. Chop bell peppers, cucumbers, red cabbage, and carrots.\n2. Mix in a bowl with arugula or spinach.\n3. Add lemon juice, olive oil, salt, and pepper. Toss well.",
-    "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2"
-  },
-  {
-    "title": "Spaghetti Bolognese",
-    "description": "Classic Italian pasta dish with meat sauce.",
-    "longDescription": "Spaghetti Bolognese is a hearty pasta dish originating from Bologna, Italy. It features a slow-simmered meat sauce made from ground beef, tomatoes, and aromatic herbs. It's rich, savory, and a comforting favorite for all ages.",
-    "recipe": "1. Cook spaghetti until al dente.\n2. Sauté onions and garlic, then brown ground beef.\n3. Add crushed tomatoes, basil, and oregano. Simmer 30 mins.\n4. Serve sauce over pasta with grated Parmesan.",
-    "image": "https://images.unsplash.com/photo-1603133872878-684f208fb68a"
-  },
-  {
-    "title": "Chicken Curry",
-    "description": "Rich and spicy Indian-style chicken curry.",
-    "longDescription": "This chicken curry blends tender chicken pieces in a flavorful tomato-onion base infused with ginger, garlic, and a mix of Indian spices. It's best enjoyed with rice or warm naan bread, offering a comforting and spicy meal.",
-    "recipe": "1. Sauté onions, ginger, and garlic.\n2. Add chicken and brown it.\n3. Stir in spices (turmeric, cumin, coriander), tomatoes, and simmer.\n4. Finish with garam masala and cilantro.",
-    "image": "https://images.unsplash.com/photo-1604908554164-dba8c9145c1a"
-  },
-  {
-    "title": "Classic Pancakes",
-    "description": "Fluffy breakfast pancakes with syrup.",
-    "longDescription": "These classic pancakes are light, fluffy, and golden brown, making them a beloved breakfast treat. Perfect with butter and maple syrup, or dressed up with fruit and whipped cream.",
-    "recipe": "1. Mix flour, baking powder, milk, eggs, and a pinch of salt.\n2. Pour batter onto a hot griddle.\n3. Cook until bubbles form, flip and cook the other side.\n4. Serve with syrup or toppings.",
-    "image": "https://images.unsplash.com/photo-1495214783159-3503fd1b572d"
-  },
-  {
-    "title": "Veggie Stir Fry",
-    "description": "Quick stir-fry with mixed vegetables.",
-    "longDescription": "This vibrant stir-fry combines a medley of colorful vegetables sautéed in a savory soy-garlic sauce. It's a quick, healthy option that pairs perfectly with rice or noodles.",
-    "recipe": "1. Heat oil in a wok.\n2. Add garlic, then broccoli, carrots, and bell peppers.\n3. Stir in soy sauce, sesame oil, and chili flakes.\n4. Serve with rice or noodles.",
-    "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0"
-  },
-  {
-    "title": "Banana Smoothie",
-    "description": "Creamy and refreshing banana drink.",
-    "longDescription": "This banana smoothie is smooth, creamy, and naturally sweet. With just a few ingredients, it's perfect for a quick breakfast or a post-workout snack.",
-    "recipe": "1. Blend 2 bananas with 1 cup milk and 1/2 cup yogurt.\n2. Add a teaspoon of honey and a few ice cubes.\n3. Blend until smooth and serve chilled.",
-    "image": "https://images.unsplash.com/photo-1611048263366-d6db66e3b90f"
-  },
-  {
-    "title": "Margherita Pizza",
-    "description": "Simple pizza with tomato, mozzarella & basil.",
-    "longDescription": "Margherita pizza is a classic Neapolitan dish with fresh ingredients: tangy tomato sauce, melted mozzarella cheese, and fragrant basil leaves on a thin crust. It's all about balance and freshness.",
-    "recipe": "1. Roll out pizza dough.\n2. Spread tomato sauce and layer mozzarella slices.\n3. Bake at 475°F for 10-12 mins.\n4. Top with fresh basil and olive oil.",
-    "image": "https://images.unsplash.com/photo-1601924638867-3ec62e74c6f3"
-  },
-  {
-    "title": "Chocolate Chip Cookies",
-    "description": "Crispy on the edges, gooey in the center.",
-    "longDescription": "These cookies have golden, crispy edges and soft, gooey centers with lots of chocolate chips. A childhood favorite and perfect with a glass of milk.",
-    "recipe": "1. Mix butter, sugar, eggs, and vanilla.\n2. Add flour, baking soda, and chocolate chips.\n3. Drop spoonfuls on a baking sheet and bake at 350°F for 10 mins.",
-    "image": "https://images.unsplash.com/photo-1599785209707-28b4b94b53b9"
-  },
-  {
-    "title": "Shakshuka",
-    "description": "Poached eggs in a spicy tomato sauce.",
-    "longDescription": "Shakshuka is a popular Middle Eastern dish of poached eggs in a rich, spicy tomato sauce with bell peppers, onions, garlic, and a mix of cumin, paprika, and chili. Often served with crusty bread, it's a hearty and flavorful breakfast or brunch option.",
-    "recipe": "1. Sauté onions, garlic, and bell peppers in a pan.\n2. Add tomatoes, cumin, paprika, and chili flakes.\n3. Make small wells in the sauce and crack eggs into them.\n4. Cover and cook until eggs are set.\n5. Serve with bread.",
-    "image": "https://images.unsplash.com/photo-1585082591-b518c4a5a7ae"
-  },
-  {
-    "title": "Lemon Garlic Shrimp Pasta",
-    "description": "Pasta with shrimp, garlic, and lemon.",
-    "longDescription": "Lemon Garlic Shrimp Pasta is a light yet flavorful dish that combines juicy shrimp with a zesty garlic and lemon sauce. It’s a simple pasta dish that’s quick to make but packed with bright, fresh flavors.",
-    "recipe": "1. Cook pasta according to package instructions.\n2. Sauté garlic and shrimp in olive oil.\n3. Add lemon juice, zest, and pasta water.\n4. Toss pasta in the sauce and serve with parsley.",
-    "image": "https://images.unsplash.com/photo-1587634149755-b4099c6f1b7a"
-  },
-  {
-    "title": "Beef Tacos",
-    "description": "Spicy ground beef served in soft or hard taco shells.",
-    "longDescription": "Beef tacos are a classic Mexican dish consisting of seasoned ground beef, topped with fresh lettuce, tomatoes, cheese, and a dollop of sour cream. They’re a fun, customizable meal that's perfect for taco nights.",
-    "recipe": "1. Brown ground beef in a skillet.\n2. Add taco seasoning and a bit of water. Simmer.\n3. Fill taco shells with the beef mixture and toppings.",
-    "image": "https://images.unsplash.com/photo-1561480273-0c87655cc905"
-  },
-  {
-    "title": "Caprese Salad",
-    "description": "Simple salad with tomatoes, mozzarella, and basil.",
-    "longDescription": "Caprese Salad is a simple Italian dish that celebrates the flavors of fresh tomatoes, mozzarella, and basil, drizzled with olive oil and balsamic vinegar. It's a light and refreshing appetizer or side dish.",
-    "recipe": "1. Slice tomatoes and mozzarella.\n2. Arrange on a plate, alternating slices of tomato and cheese.\n3. Garnish with basil leaves, olive oil, and balsamic glaze.",
-    "image": "https://images.unsplash.com/photo-1601924880192-2a22b5405c91"
-  },
-  {
-    "title": "Garlic Bread",
-    "description": "Crispy bread with a buttery garlic spread.",
-    "longDescription": "Garlic bread is a deliciously simple side dish, with crispy, toasted bread slathered in a garlic and butter spread. It's a perfect accompaniment to pasta, salads, or soups.",
-    "recipe": "1. Mix butter, garlic, parsley, and salt.\n2. Spread on sliced baguette or Italian bread.\n3. Toast in the oven at 375°F until golden brown.",
-    "image": "https://images.unsplash.com/photo-1562234885-0be4db8b5821"
-  },
-  {
-    "title": "Vegetable Soup",
-    "description": "Comforting soup with assorted vegetables.",
-    "longDescription": "This vegetable soup is a warm, hearty dish packed with a variety of vegetables such as carrots, potatoes, celery, and spinach. It's light but filling and can be made as a vegan option or with added protein like beans or chicken.",
-    "recipe": "1. Sauté onions, garlic, and carrots in olive oil.\n2. Add chopped potatoes, celery, and vegetable broth.\n3. Simmer for 30 minutes and add spinach.\n4. Season with salt and pepper.",
-    "image": "https://images.unsplash.com/photo-1604260640986-2348422d3acb"
-  },
-  {
-    "title": "Baked Salmon",
-    "description": "Healthy baked salmon with lemon and herbs.",
-    "longDescription": "Baked salmon is a nutritious and flavorful meal that’s quick and easy to prepare. With a simple marinade of lemon, garlic, and herbs, the salmon bakes to perfection, resulting in a moist and tender fish.",
-    "recipe": "1. Preheat oven to 400°F.\n2. Place salmon fillets on a baking sheet.\n3. Drizzle with olive oil, lemon juice, garlic, and herbs.\n4. Bake for 12-15 minutes.",
-    "image": "https://images.unsplash.com/photo-1603761430860-72b4b1c8180e"
-  },
-  {
-    "title": "Pork Stir Fry",
-    "description": "Tender pork stir-fried with vegetables.",
-    "longDescription": "Pork stir fry is a quick and satisfying dish where tender pieces of pork are stir-fried with colorful vegetables in a savory soy-based sauce. It's a well-balanced meal that’s easy to customize with your favorite vegetables.",
-    "recipe": "1. Sauté pork slices in oil.\n2. Add garlic, bell peppers, and onions.\n3. Stir in soy sauce and sesame oil.\n4. Cook until veggies are tender, and serve.",
-    "image": "https://images.unsplash.com/photo-1597755560264-08d28ca02b35"
-  },
-  {
-    "title": "Vegetable Samosas",
-    "description": "Fried pastry filled with spiced vegetables.",
-    "longDescription": "Vegetable samosas are a popular Indian snack made with spiced potatoes, peas, and other vegetables, wrapped in a crisp pastry shell. These are great as appetizers or served with chutney.",
-    "recipe": "1. Cook potatoes and peas with spices (cumin, coriander, turmeric).\n2. Stuff mixture into pastry triangles.\n3. Fry until golden brown and serve with chutney.",
-    "image": "https://images.unsplash.com/photo-1611587883469-97862b8bb194"
-  },
-  {
-    "title": "Cheese Quesadilla",
-    "description": "Crispy tortilla filled with melted cheese.",
-    "longDescription": "Cheese quesadillas are a simple Mexican snack or meal made by melting cheese between two tortillas, then crisping them on a griddle. They're perfect on their own or as part of a larger Mexican feast.",
-    "recipe": "1. Heat a tortilla on a skillet.\n2. Add shredded cheese and top with another tortilla.\n3. Flip and cook until both sides are golden brown.\n4. Serve with salsa or guacamole.",
-    "image": "https://images.unsplash.com/photo-1599058911705-419ff5705e1b"
-  }
-]
+    {
+      "id": 1,
+      "title": "Avocado Toast",
+      "description": "Healthy & easy breakfast recipe.",
+      "longDescription": "Avocado toast is a simple yet versatile dish that combines creamy mashed avocados with crispy toasted bread. Popular for its nutritional benefits, this dish is often topped with eggs, cherry tomatoes, or chili flakes for added flavor. The healthy fats from avocados provide lasting energy, making it an ideal breakfast or snack.",
+      "recipe": "1. Toast 2 slices of whole grain bread.\n2. Mash 1 ripe avocado with lemon juice, salt, and pepper.\n3. Spread on toast and top with poached eggs, tomato, or chili flakes.",
+      "ingredients": ["Whole grain bread", "Avocado", "Lemon juice", "Salt", "Pepper", "Eggs", "Tomato", "Chili flakes"],
+      "image": "https://images.unsplash.com/photo-1687276287139-88f7333c8ca4?q=80&w=3543&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Snack",
+      "rating": 4.5,
+      "date": "2023-04-01"
+    },
+    {
+      "id": 2,
+      "title": "Berry Breakfast Bowl",
+      "description": "Fruits and oats with yogurt.",
+      "longDescription": "The Berry Breakfast Bowl is a refreshing morning meal packed with antioxidants and nutrients. Combining Greek yogurt, crunchy granola, and a vibrant mix of fresh berries, this bowl offers texture and sweetness. It's a favorite for those seeking a healthy yet delicious start to the day.",
+      "recipe": "1. In a bowl, add 1 cup Greek yogurt.\n2. Top with granola, strawberries, blueberries, and raspberries.\n3. Drizzle honey and sprinkle chia seeds.",
+      "ingredients": ["Greek yogurt", "Granola", "Strawberries", "Blueberries", "Raspberries", "Honey", "Chia seeds"],
+      "image": "https://plus.unsplash.com/premium_photo-1671399555927-9b562d68c13a?q=80&w=3489&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Breakfast",
+      "rating": 4.7,
+      "date": "2023-05-15"
+    },
+    {
+      "id": 3,
+      "title": "Colorful Salad",
+      "description": "Fresh vegetables with lemon dressing.",
+      "longDescription": "This salad is a feast for the eyes and body. Made with a rainbow of veggies including bell peppers, cucumbers, and shredded carrots, it's tossed in a lemony vinaigrette. This salad is crunchy, zesty, and a perfect side or light meal.",
+      "recipe": "1. Chop bell peppers, cucumbers, red cabbage, and carrots.\n2. Mix in a bowl with arugula or spinach.\n3. Add lemon juice, olive oil, salt, and pepper. Toss well.",
+      "ingredients": ["Bell peppers", "Cucumbers", "Red cabbage", "Carrots", "Arugula", "Spinach", "Lemon juice", "Olive oil", "Salt", "Pepper"],
+      "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2",
+      "category": "Appetizer",
+      "rating": 4.2,
+      "date": "2023-06-10"
+    },
+    {
+      "id": 4,
+      "title": "Spaghetti Bolognese",
+      "description": "Classic Italian pasta dish with meat sauce.",
+      "longDescription": "Spaghetti Bolognese is a hearty pasta dish originating from Bologna, Italy. It features a slow-simmered meat sauce made from ground beef, tomatoes, and aromatic herbs. It's rich, savory, and a comforting favorite for all ages.",
+      "recipe": "1. Cook spaghetti until al dente.\n2. Sauté onions and garlic, then brown ground beef.\n3. Add crushed tomatoes, basil, and oregano. Simmer 30 mins.\n4. Serve sauce over pasta with grated Parmesan.",
+      "ingredients": ["Spaghetti", "Ground beef", "Onions", "Garlic", "Crushed tomatoes", "Basil", "Oregano", "Parmesan cheese"],
+      "image": "https://images.unsplash.com/photo-1622973536968-3ead9e780960?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Main Course",
+      "rating": 4.8,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 5,
+      "title": "Chicken Curry",
+      "description": "Rich and spicy Indian-style chicken curry.",
+      "longDescription": "This chicken curry blends tender chicken pieces in a flavorful tomato-onion base infused with ginger, garlic, and a mix of Indian spices. It's best enjoyed with rice or warm naan bread, offering a comforting and spicy meal.",
+      "recipe": "1. Sauté onions, ginger, and garlic.\n2. Add chicken and brown it.\n3. Stir in spices (turmeric, cumin, coriander), tomatoes, and simmer.\n4. Finish with garam masala and cilantro.",
+      "ingredients": ["Chicken", "Onions", "Ginger", "Garlic", "Turmeric", "Cumin", "Coriander", "Tomatoes", "Garam masala", "Cilantro"],
+      "image": "https://images.unsplash.com/photo-1631292784640-2b24be784d5d?q=80&w=3314&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Main Course",
+      "rating": 4.6,
+      "date": "2023-02-11"
+    },
+    {
+      "id": 6,
+      "title": "Classic Pancakes",
+      "description": "Fluffy breakfast pancakes with syrup.",
+      "longDescription": "These classic pancakes are light, fluffy, and golden brown, making them a beloved breakfast treat. Perfect with butter and maple syrup, or dressed up with fruit and whipped cream.",
+      "recipe": "1. Mix flour, baking powder, milk, eggs, and a pinch of salt.\n2. Pour batter onto a hot griddle.\n3. Cook until bubbles form, flip and cook the other side.\n4. Serve with syrup or toppings.",
+      "ingredients": ["Flour", "Baking powder", "Milk", "Eggs", "Salt", "Butter", "Maple syrup"],
+      "image": "https://images.unsplash.com/photo-1495214783159-3503fd1b572d",
+      "category": "Breakfast",
+      "rating": 4.3,
+      "date": "2023-07-05"
+    },
+    {
+      "id": 7,
+      "title": "Veggie Stir Fry",
+      "description": "Quick stir-fry with mixed vegetables.",
+      "longDescription": "This vibrant stir-fry combines a medley of colorful vegetables sautéed in a savory soy-garlic sauce. It's a quick, healthy option that pairs perfectly with rice or noodles.",
+      "recipe": "1. Heat oil in a wok.\n2. Add garlic, then broccoli, carrots, and bell peppers.\n3. Stir in soy sauce, sesame oil, and chili flakes.\n4. Serve with rice or noodles.",
+      "ingredients": ["Broccoli", "Carrots", "Bell peppers", "Garlic", "Soy sauce", "Sesame oil", "Chili flakes"],
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+      "category": "Main Course",
+      "rating": 4.1,
+      "date": "2023-08-15"
+    },
+    {
+      "id": 8,
+      "title": "Banana Smoothie",
+      "description": "Creamy and refreshing banana drink.",
+      "longDescription": "This banana smoothie is smooth, creamy, and naturally sweet. With just a few ingredients, it's perfect for a quick breakfast or a post-workout snack.",
+      "recipe": "1. Blend 2 bananas with 1 cup milk and 1/2 cup yogurt.\n2. Add a teaspoon of honey and a few ice cubes.\n3. Blend until smooth and serve chilled.",
+      "ingredients": ["Bananas", "Milk", "Yogurt", "Honey", "Ice cubes"],
+      "image": "https://plus.unsplash.com/premium_photo-1695035006295-d37b73003e27?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Snack",
+      "rating": 4.4,
+      "date": "2023-05-22"
+    },
+    {
+      "id": 9,
+      "title": "Margherita Pizza",
+      "description": "Simple pizza with tomato, mozzarella & basil.",
+      "longDescription": "Margherita pizza is a classic Neapolitan dish with fresh ingredients: tangy tomato sauce, melted mozzarella cheese, and fragrant basil leaves on a thin crust. It's all about balance and freshness.",
+      "recipe": "1. Roll out pizza dough.\n2. Spread tomato sauce and layer mozzarella slices.\n3. Bake at 475°F for 10-12 mins.\n4. Top with fresh basil and olive oil.",
+      "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Basil", "Olive oil"],
+      "image": "https://images.unsplash.com/photo-1566843972705-1aad0ee32f88?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Main Course",
+      "rating": 4.9,
+      "date": "2023-04-10"
+    },
+    {
+      "id": 10,
+      "title": "Chocolate Chip Cookies",
+      "description": "Crispy on the edges, gooey in the center.",
+      "longDescription": "These cookies have golden, crispy edges and soft, gooey centers with lots of chocolate chips. A childhood favorite and perfect with a glass of milk.",
+      "recipe": "1. Mix butter, sugar, eggs, and vanilla.\n2. Add flour, baking soda, and chocolate chips.\n3. Drop spoonfuls on a baking sheet and bake at 350°F for 10 mins.",
+      "ingredients": ["Butter", "Sugar", "Eggs", "Vanilla", "Flour", "Baking soda", "Chocolate chips"],
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=2678&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Dessert",
+      "rating": 4.8,
+      "date": "2023-03-17"
+    },
+    {
+      "id": 11,
+      "title": "Shakshuka",
+      "description": "Poached eggs in a spicy tomato sauce.",
+      "longDescription": "Shakshuka is a popular Middle Eastern dish of poached eggs in a rich, spicy tomato sauce with bell peppers, onions, garlic, and a mix of cumin, paprika, and chili. Often served with crusty bread, it's a hearty and flavorful breakfast or brunch option.",
+      "recipe": "1. Sauté onions, garlic, and bell peppers in a pan.\n2. Add tomatoes, cumin, paprika, and chili flakes.\n3. Make small wells in the sauce and crack eggs into them.\n4. Cover and cook until eggs are set.\n5. Serve with bread.",
+      "ingredients": ["Onions", "Garlic", "Bell peppers", "Tomatoes", "Cumin", "Paprika", "Chili flakes", "Eggs", "Bread"],
+      "image": "https://images.unsplash.com/photo-1590412200988-a436970781fa?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Breakfast",
+      "rating": 4.3,
+      "date": "2023-02-05"
+    },
+    {
+      "id": 12,
+      "title": "Lemon Garlic Shrimp Pasta",
+      "description": "Pasta with shrimp, garlic, and lemon.",
+      "longDescription": "Lemon Garlic Shrimp Pasta is a light yet flavorful dish that combines juicy shrimp with a zesty garlic and lemon sauce. It’s a simple pasta dish that’s quick to make but packed with bright, fresh flavors.",
+      "recipe": "1. Cook pasta according to package instructions.\n2. Sauté garlic and shrimp in olive oil.\n3. Add lemon juice, zest, and pasta water.\n4. Toss pasta in the sauce and serve with parsley.",
+      "ingredients": ["Pasta", "Shrimp", "Garlic", "Olive oil", "Lemon juice", "Lemon zest", "Parsley"],
+      "image": "https://plus.unsplash.com/premium_photo-1707935175468-46bec1df8fc3?q=80&w=3872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Main Course",
+      "rating": 4.6,
+      "date": "2023-07-18"
+    },
+    {
+      "id": 13,
+      "title": "Cauliflower Tacos",
+      "description": "Vegetarian tacos with roasted cauliflower.",
+      "longDescription": "These cauliflower tacos are a great vegetarian alternative to traditional tacos. The roasted cauliflower is seasoned with chili and cumin, then topped with fresh slaw and creamy avocado.",
+      "recipe": "1. Roast cauliflower with olive oil and spices.\n2. Warm taco shells and fill with cauliflower, slaw, and avocado.\n3. Drizzle with lime juice and cilantro.",
+      "ingredients": ["Cauliflower", "Olive oil", "Chili powder", "Cumin", "Taco shells", "Slaw", "Avocado", "Lime", "Cilantro"],
+      "image": "https://plus.unsplash.com/premium_photo-1681406995009-36bf99ce02ad?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Main Course",
+      "rating": 4.2,
+      "date": "2023-06-08"
+    },
+    {
+      "id": 14,
+      "title": "Eggplant Parmesan",
+      "description": "Layers of fried eggplant with marinara and cheese.",
+      "longDescription": "Eggplant Parmesan is a classic Italian-American dish. It consists of layers of breaded and fried eggplant, topped with marinara sauce, and melted mozzarella cheese. This dish is perfect for vegetarians and anyone craving comfort food.",
+      "recipe": "1. Bread and fry eggplant slices.\n2. Layer eggplant with marinara sauce and mozzarella.\n3. Bake at 375°F for 20 minutes.",
+      "ingredients": ["Eggplant", "Breadcrumbs", "Mozzarella cheese", "Marinara sauce", "Olive oil"],
+      "image": "https://plus.unsplash.com/premium_photo-1701013639018-8cdf9f5a7b80?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Main Course",
+      "rating": 4.7,
+      "date": "2023-09-04"
+    },
+    {
+      "id": 15,
+      "title": "Mango Lassi",
+      "description": "Creamy yogurt drink with mango.",
+      "longDescription": "A refreshing and creamy drink, Mango Lassi is a popular Indian beverage made with ripe mangoes, yogurt, and a touch of cardamom. It’s sweet, creamy, and the perfect drink to pair with spicy dishes.",
+      "recipe": "1. Blend 1 cup mangoes, 1/2 cup yogurt, 1/2 cup milk, and sugar.\n2. Add a pinch of cardamom and ice cubes.\n3. Blend until smooth and serve cold.",
+      "ingredients": ["Mangoes", "Yogurt", "Milk", "Sugar", "Cardamom", "Ice cubes"],
+      "image": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?q=80&w=3987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Drink",
+      "rating": 4.5,
+      "date": "2023-08-12"
+    },
+    {
+      "id": 16,
+      "title": "Grilled Cheese Sandwich",
+      "description": "Classic comfort food with melted cheese.",
+      "longDescription": "The Grilled Cheese Sandwich is a beloved American comfort food. With crispy, golden brown bread and melted cheese inside, it’s a perfect snack or meal paired with tomato soup.",
+      "recipe": "1. Butter two slices of bread.\n2. Place cheese between the slices and grill until golden.",
+      "ingredients": ["Bread", "Cheese", "Butter"],
+      "image": "https://plus.unsplash.com/premium_photo-1695127909043-86a3dce3f65e?q=80&w=3677&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Snack",
+      "rating": 4.4,
+      "date": "2023-07-22"
+    },
+    {
+      "id": 17,
+      "title": "Sushi Rolls",
+      "description": "Fresh sushi with fish and vegetables.",
+      "longDescription": "Sushi Rolls are a popular Japanese dish made with vinegared rice, seafood, and vegetables wrapped in seaweed. They’re light, healthy, and customizable to suit any taste preference.",
+      "recipe": "1. Cook sushi rice with rice vinegar.\n2. Place nori on a bamboo mat, spread rice, and add fillings like fish, avocado, and cucumber.\n3. Roll tightly and slice into pieces.",
+      "ingredients": ["Sushi rice", "Nori", "Fish", "Avocado", "Cucumber", "Rice vinegar"],
+      "image": "https://plus.unsplash.com/premium_photo-1712949140529-203336f93d17?q=80&w=3987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Main Course",
+      "rating": 4.6,
+      "date": "2023-04-15"
+    },
+    {
+      "id": 18,
+      "title": "Baked Salmon",
+      "description": "Healthy salmon with lemon and herbs.",
+      "longDescription": "Baked Salmon is a quick, healthy meal option that’s rich in Omega-3 fatty acids. It's seasoned with lemon, garlic, and herbs, and baked to perfection for a juicy, flavorful result.",
+      "recipe": "1. Season salmon fillets with lemon, garlic, and herbs.\n2. Bake at 375°F for 20 minutes.",
+      "ingredients": ["Salmon", "Lemon", "Garlic", "Herbs", "Olive oil"],
+      "image": "https://plus.unsplash.com/premium_photo-1664472670740-76504463a146?q=80&w=3950&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Main Course",
+      "rating": 4.8,
+      "date": "2023-08-03"
+    },
+    {
+      "id": 19,
+      "title": "Lentil Soup",
+      "description": "Hearty, healthy soup with lentils.",
+      "longDescription": "This lentil soup is filling, nutritious, and packed with protein and fiber. Made with carrots, celery, and tomatoes, it's perfect for a cold day.",
+      "recipe": "1. Sauté onions, garlic, carrots, and celery.\n2. Add lentils, tomatoes, vegetable broth, and spices.\n3. Simmer for 30-40 minutes.",
+      "ingredients": ["Lentils", "Onions", "Garlic", "Carrots", "Celery", "Tomatoes", "Vegetable broth", "Cumin", "Turmeric"],
+      "image": "https://plus.unsplash.com/premium_photo-1712678665862-3c51d1fac466?q=80&w=3987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Main Course",
+      "rating": 4.3,
+      "date": "2023-09-18"
+    },
+    {
+      "id": 20,
+      "title": "Chickpea Salad",
+      "description": "Fresh salad with chickpeas and feta.",
+      "longDescription": "This chickpea salad is simple, nutritious, and delicious. It features chickpeas, feta cheese, cucumber, and a lemon-olive oil dressing.",
+      "recipe": "1. Combine chickpeas, cucumber, and feta cheese in a bowl.\n2. Drizzle with olive oil, lemon juice, and season with salt and pepper.\n3. Toss and serve.",
+      "ingredients": ["Chickpeas", "Cucumber", "Feta cheese", "Olive oil", "Lemon juice", "Salt", "Pepper"],
+      "image": "https://images.unsplash.com/photo-1688807450144-9d10de5eb913?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Appetizer",
+      "rating": 4.6,
+      "date": "2023-07-30"
+    }
+  ]
+  

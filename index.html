@@ -1,93 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Recipe Book</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body class="bg-white text-gray-800 font-sans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Book</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-white text-gray-800 font-sans">
+    <!-- Include the Header Section Here -->
+    <div id="header-container"></div>
 
-  <!-- Navbar -->
-  <nav class="flex justify-between items-center px-8 py-4 shadow animate-fade-in">
-    <div class="text-2xl font-bold text-red-500">Kocina</div>
-    <ul class="hidden md:flex space-x-6 text-sm font-medium">
-      <li><a href="#" class="text-red-500">Home</a></li>
-      <li><a href="#">Recipe</a></li>
-      <li><a href="#">Search</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <div class="flex space-x-4">
-      <button class="text-sm">Sign In</button>
-      <button class="bg-red-500 text-white px-4 py-2 rounded-full text-sm">Sign Up</button>
-    </div>
-  </nav>
+    <!-- Hero Section -->
+    <section
+      class="relative flex flex-col md:flex-row items-center justify-between px-8 py-12 bg-gray-100 rounded-lg m-6 animate-fade-in"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1617850606395-fb6c1f0ce918?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      <div
+        class="md:w-1/2 space-y-4 animate-slide-left bg-white bg-opacity-50 p-6 rounded-lg"
+      >
+        <h1 class="text-3xl md:text-5xl font-bold text-gray-900">
+          Choose from thousands of recipes
+        </h1>
+        <p class="text-gray-600">
+          Appropriately integrate technically sound value with scalable
+          infomediaries.
+        </p>
+        <button
+          class="mt-4 bg-red-500 text-white px-6 py-3 rounded-full hover:scale-105 transition-transform"
+        >
+          Sign up today →
+        </button>
+      </div>
+    </section>
 
-  <!-- Hero -->
-  <section class="relative flex flex-col md:flex-row items-center justify-between px-8 py-12 bg-gray-100 rounded-lg m-6 animate-fade-in">
-    <div class="md:w-1/2 space-y-4 animate-slide-left">
-      <h1 class="text-4xl md:text-5xl font-bold text-gray-900">Choose from thousands of recipes</h1>
-      <p class="text-gray-600">Appropriately integrate technically sound value with scalable infomediaries.</p>
-      <button class="mt-4 bg-red-500 text-white px-6 py-3 rounded-full hover:scale-105 transition-transform">Sign up today →</button>
-    </div>
-    <div class="md:w-1/2 mt-8 md:mt-0 animate-slide-right">
-      <img src="https://images.unsplash.com/photo-1604908176997-06f9aa15aa10" alt="Hero" class="rounded-lg shadow-lg">
-    </div>
-  </section>
+    <!-- Recipes Section -->
+    <section class="max-w-7xl mx-auto px-6 py-12">
+      <div class="flex flex-col md:flex-row justify-between items-start gap-8">
+        <aside class="w-full md:w-1/4 animate-slide-left">
+          <h2 class="text-2xl font-semibold mb-4">Categories</h2>
+          <ul id="categories-list" class="flex flex-wrap gap-4 md:block">
+            <!-- Categories will be injected here -->
+          </ul>
+        </aside>
 
-  <!-- Recipes Section -->
-  <section class="max-w-7xl mx-auto px-6 py-12">
-    <div class="flex flex-col md:flex-row justify-between items-start gap-8">
-      <!-- Sidebar -->
-      <aside class="w-full md:w-1/4 animate-slide-left">
-        <h2 class="text-2xl font-semibold mb-4">Recipes</h2>
-        <ul class="space-y-2">
-          <li><a href="#" class="text-gray-700 hover:text-red-500">Appetizers & Snacks</a></li>
-          <li><a href="#" class="text-gray-700 hover:text-red-500">Bread Recipes</a></li>
-          <li><a href="#" class="text-gray-700 hover:text-red-500">Cake Recipes</a></li>
-          <li><a href="#" class="text-gray-700 hover:text-red-500">Candy and Fudge</a></li>
-        </ul>
-      </aside>
-
-      <!-- Recipe Content -->
-      <div class="w-full md:w-3/4">
-        <!-- Search and Sort -->
-        <div class="flex justify-between items-center mb-6 animate-fade-in">
-          <input type="text" placeholder="Search for recipes..." class="w-full md:w-2/3 p-3 border border-gray-300 rounded-lg">
-          <select class="ml-4 p-3 border border-gray-300 rounded-lg">
-            <option>Sort by: Latest</option>
-            <option>Sort by: Popular</option>
-          </select>
-        </div>
-
-        <!-- Recipe Cards -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div class="rounded-xl overflow-hidden shadow hover:shadow-lg transition transform hover:scale-105 animate-fade-in">
-            <img src="https://images.unsplash.com/photo-1604908176712-5f03404c8a97" alt="Dish" class="w-full h-48 object-cover">
-            <div class="p-4">
-              <h3 class="font-semibold text-lg">Avocado Toast</h3>
-              <p class="text-sm text-gray-600">Healthy & easy breakfast recipe.</p>
+        <!-- Recipe Content -->
+        <div class="w-full md:w-3/4">
+          <!-- Search and Sort Section -->
+          <div
+            class="flex flex-col md:flex-row justify-between items-center mb-6 animate-fade-in"
+          >
+            <input
+              type="text"
+              id="recipe-search"
+              placeholder="Search for recipes..."
+              class="w-full md:w-2/3 p-3 border border-gray-300 rounded-lg mb-4 md:mb-0"
+            />
+            <div class="flex space-x-4">
+              <select
+                class="ml-4 p-3 border border-gray-300 rounded-lg"
+                id="sort-dropdown"
+              >
+                <option value="latest">Sort by: Latest</option>
+                <option value="popular">Sort by: Popular</option>
+              </select>
+              <div
+                id="clear-filter"
+                class="p-3 border border-gray-300 rounded-lg bg-gray-200 hover:bg-gray-300 cursor-pointer text-red-500"
+                style="display: none"
+              >
+                <span class="text-xs">Clear Filter</span>
+                <span class="text-xs">×</span>
+              </div>
             </div>
           </div>
-          <div class="rounded-xl overflow-hidden shadow hover:shadow-lg transition transform hover:scale-105 animate-fade-in delay-100">
-            <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2" alt="Dish" class="w-full h-48 object-cover">
-            <div class="p-4">
-              <h3 class="font-semibold text-lg">Colorful Salad</h3>
-              <p class="text-sm text-gray-600">Fresh vegetables with lemon dressing.</p>
-            </div>
-          </div>
-          <div class="rounded-xl overflow-hidden shadow hover:shadow-lg transition transform hover:scale-105 animate-fade-in delay-200">
-            <img src="https://images.unsplash.com/photo-1613145996363-0ad9d6ff5b7e" alt="Dish" class="w-full h-48 object-cover">
-            <div class="p-4">
-              <h3 class="font-semibold text-lg">Berry Breakfast Bowl</h3>
-              <p class="text-sm text-gray-600">Fruits and oats with yogurt.</p>
-            </div>
+
+          <!-- Recipe Cards -->
+          <div
+            id="recipe-cards"
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          >
+            <!-- Recipe cards will be injected here by JavaScript -->
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-</body>
+    <script>
+      // Load the header dynamically
+      fetch("header.html")
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById("header-container").innerHTML = html;
+        })
+        .catch((error) => console.error("Error loading header:", error));
+
+      // Fetch the recipes JSON data
+      fetch("recipes.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const recipeCardsContainer = document.getElementById("recipe-cards");
+          const categoriesList = document.getElementById("categories-list");
+          const clearFilter = document.getElementById("clear-filter");
+          let selectedCategory = "All";
+          let searchQuery = "";
+
+          const categories = [
+            "All",
+            ...new Set(data.map((recipe) => recipe.category)),
+          ];
+
+          categories.forEach((category) => {
+            const categoryItem = document.createElement("li");
+            categoryItem.className = "category-card";
+            categoryItem.textContent = category;
+            categoryItem.addEventListener("click", () => {
+              selectedCategory = category;
+              updateCategorySelection();
+              filterRecipes();
+            });
+            categoriesList.appendChild(categoryItem);
+          });
+
+          window.filterByCategory = (category) => {
+            selectedCategory = category;
+            filterRecipes();
+          };
+
+          document
+            .getElementById("recipe-search")
+            .addEventListener("input", (e) => {
+              searchQuery = e.target.value.toLowerCase();
+              filterRecipes();
+            });
+
+          function filterRecipes() {
+            recipeCardsContainer.innerHTML = "";
+
+            const filteredRecipes =
+              selectedCategory === "All"
+                ? data
+                : data.filter((recipe) => recipe.category === selectedCategory);
+
+            const searchFilteredRecipes = filteredRecipes.filter((recipe) =>
+              recipe.title.toLowerCase().includes(searchQuery)
+            );
+
+            sortRecipes(searchFilteredRecipes);
+            updateCategorySelection(); // <-- ADD THIS HERE
+
+            clearFilter.style.display =
+              selectedCategory !== "All" ? "inline-flex" : "none";
+
+            searchFilteredRecipes.forEach((recipe) => {
+              const card = document.createElement("div");
+              card.classList.add(
+                "rounded-xl",
+                "overflow-hidden",
+                "shadow",
+                "hover:shadow-lg",
+                "transition",
+                "transform",
+                "hover:scale-105",
+                "animate-fade-in"
+              );
+
+              card.innerHTML = ` 
+      <a href="recipe-detail.html?id=${recipe.id}">
+        <img src="${recipe.image}" alt="${recipe.title}" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-lg">${recipe.title}</h3>
+          <p class="text-sm text-gray-600">${recipe.description}</p>
+        </div>
+      </a>
+    `;
+              recipeCardsContainer.appendChild(card);
+            });
+          }
+
+          function updateCategorySelection() {
+            const categoryItems = document.querySelectorAll(
+              "#categories-list .category-card"
+            );
+            categoryItems.forEach((item) => {
+              if (item.textContent === selectedCategory) {
+                item.classList.add("selected");
+              } else {
+                item.classList.remove("selected");
+              }
+            });
+          }
+
+          const sortRecipes = (recipes) => {
+            const sortBy = document.getElementById("sort-dropdown").value;
+            if (sortBy === "latest") {
+              recipes.sort((a, b) => new Date(b.date) - new Date(a.date));
+            } else if (sortBy === "popular") {
+              recipes.sort((a, b) => b.rating - a.rating);
+            }
+          };
+
+          document
+            .getElementById("sort-dropdown")
+            .addEventListener("change", () => {
+              filterRecipes();
+            });
+
+          clearFilter.addEventListener("click", () => {
+            selectedCategory = "All";
+            document.getElementById("recipe-search").value = "";
+            searchQuery = "";
+            filterRecipes();
+          });
+
+          filterRecipes();
+        })
+        .catch((error) => console.error("Error loading recipes:", error));
+    </script>
+  </body>
 </html>
