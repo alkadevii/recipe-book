@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found - Recipe Book</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      @keyframes fade-in-up {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .animate-fade-in-up {
+        animation: fade-in-up 0.8s ease-out;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-800 font-sans flex flex-col items-center justify-center min-h-screen">
+    <!-- Header (optional) -->
+    <div id="header-container"></div>
+
+    <!-- 404 Content -->
+    <div class="text-center px-4 animate-fade-in-up">
+      <h1 class="text-7xl font-extrabold text-red-500 mb-6">404</h1>
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">Oops! Page not found</h2>
+      <p class="text-gray-600 mb-6">
+        It looks like the page you're looking for doesn't exist or has been moved.
+      </p>
+      <a href="index.html">
+        <button class="bg-red-500 text-white px-6 py-3 rounded-full hover:scale-105 transition-transform">
+          Go back home →
+        </button>
+      </a>
+    </div>
+
+    <!-- Optional: Image or illustration -->
+    <div class="mt-10">
+      <img
+        src="https://img.freepik.com/free-vector/404-concept-illustration_114360-26118.jpg?t=st=1745131778~exp=1745135378~hmac=df5f546c6dca77207e032b6c888e10ab6aef2e13ce15a942838038b4dbaa8cdb&w=1800"
+        alt="Not Found Illustration"
+        class="w-72 md:w-96 mx-auto"
+      />
+    </div>
+
+    <script>
+      // Load the header dynamically (if you want to keep it consistent)
+      fetch("header.html")
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById("header-container").innerHTML = html;
+        })
+        .catch((error) => console.error("Error loading header:", error));
+    </script>
+  </body>
+</html>
