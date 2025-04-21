@@ -7,7 +7,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css" />
     <style>
-      /* Custom slide-in animation */
       @keyframes slide-left {
         0% {
           transform: translateX(-100%);
@@ -21,18 +20,22 @@
         animation: slide-left 1s ease-out;
       }
 
-      /* Recipe card zoom effect */
       .recipe-card {
-        transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
-        transform-origin: center center; /* Zoom from the center */
+        transition: transform 0.3s ease-in-out, background-color 0.3s ease,
+          box-shadow 0.3s ease;
+        transform-origin: center center;
         position: relative;
+        background-color: white;
+        border-radius: 0.75rem;
+        overflow: hidden;
       }
-
 
       .recipe-card:hover {
-        transform: scale(1.1); /* Slightly zoom in on hover */
+        transform: scale(1.08);
+        background-color: #f9fafb;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+        z-index: 10;
       }
-
     </style>
   </head>
   <body class="bg-white text-gray-800 font-sans">
@@ -42,17 +45,26 @@
     <!-- Hero Section -->
     <section
       class="relative flex flex-col md:flex-row items-center justify-between px-8 py-12 bg-gray-100 rounded-lg m-6 animate-slide-left"
-      style="background-image: url('https://images.unsplash.com/photo-1617850606395-fb6c1f0ce918?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-size: cover; background-position: center;"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1617850606395-fb6c1f0ce918?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-position: center;
+      "
     >
-      <div class="md:w-1/2 space-y-4 animate-slide-left bg-white bg-opacity-50 p-6 rounded-lg">
+      <div
+        class="md:w-1/2 space-y-4 animate-slide-left bg-white bg-opacity-50 p-6 rounded-lg"
+      >
         <h1 class="text-3xl md:text-5xl font-bold text-gray-900">
           Choose from thousands of recipes
         </h1>
         <p class="text-gray-600">
-          Appropriately integrate technically sound value with scalable infomediaries.
+          Appropriately integrate technically sound value with scalable
+          infomediaries.
         </p>
         <a href="/404.html">
-          <button class="mt-4 bg-red-500 text-white px-6 py-3 rounded-full hover:scale-105 transition-transform">
+          <button
+            class="mt-4 bg-red-500 text-white px-6 py-3 rounded-full hover:scale-105 transition-transform"
+          >
             Sign up today →
           </button>
         </a>
@@ -72,7 +84,9 @@
         <!-- Recipe Content -->
         <div class="w-full md:w-3/4">
           <!-- Search and Sort Section -->
-          <div class="flex flex-col md:flex-row justify-between items-center mb-6 animate-fade-in">
+          <div
+            class="flex flex-col md:flex-row justify-between items-center mb-6 animate-fade-in"
+          >
             <input
               type="text"
               id="recipe-search"
@@ -80,11 +94,18 @@
               class="w-full md:w-2/3 p-3 border border-gray-300 rounded-lg mb-4 md:mb-0"
             />
             <div class="flex space-x-4">
-              <select class="ml-4 p-3 border border-gray-300 rounded-lg" id="sort-dropdown">
+              <select
+                class="ml-4 p-3 border border-gray-300 rounded-lg"
+                id="sort-dropdown"
+              >
                 <option value="latest">Sort by: Latest</option>
                 <option value="popular">Sort by: Popular</option>
               </select>
-              <div id="clear-filter" class="p-3 border border-gray-300 rounded-lg bg-gray-200 hover:bg-gray-300 cursor-pointer text-red-500" style="display: none">
+              <div
+                id="clear-filter"
+                class="p-3 border border-gray-300 rounded-lg bg-gray-200 hover:bg-gray-300 cursor-pointer text-red-500"
+                style="display: none"
+              >
                 <span class="text-xs">Clear Filter</span>
                 <span class="text-xs">×</span>
               </div>
@@ -92,7 +113,10 @@
           </div>
 
           <!-- Recipe Cards -->
-          <div id="recipe-cards" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div
+            id="recipe-cards"
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          >
             <!-- Recipe cards will be injected here by JavaScript -->
           </div>
         </div>
@@ -118,7 +142,10 @@
           let selectedCategory = "All";
           let searchQuery = "";
 
-          const categories = ["All", ...new Set(data.map((recipe) => recipe.category))];
+          const categories = [
+            "All",
+            ...new Set(data.map((recipe) => recipe.category)),
+          ];
 
           categories.forEach((category) => {
             const categoryItem = document.createElement("li");
@@ -137,17 +164,20 @@
             filterRecipes();
           };
 
-          document.getElementById("recipe-search").addEventListener("input", (e) => {
-            searchQuery = e.target.value.toLowerCase();
-            filterRecipes();
-          });
+          document
+            .getElementById("recipe-search")
+            .addEventListener("input", (e) => {
+              searchQuery = e.target.value.toLowerCase();
+              filterRecipes();
+            });
 
           function filterRecipes() {
             recipeCardsContainer.innerHTML = "";
 
-            const filteredRecipes = selectedCategory === "All"
-              ? data
-              : data.filter((recipe) => recipe.category === selectedCategory);
+            const filteredRecipes =
+              selectedCategory === "All"
+                ? data
+                : data.filter((recipe) => recipe.category === selectedCategory);
 
             const searchFilteredRecipes = filteredRecipes.filter((recipe) =>
               recipe.title.toLowerCase().includes(searchQuery)
@@ -156,7 +186,8 @@
             sortRecipes(searchFilteredRecipes);
             updateCategorySelection(); // <-- ADD THIS HERE
 
-            clearFilter.style.display = selectedCategory !== "All" ? "inline-flex" : "none";
+            clearFilter.style.display =
+              selectedCategory !== "All" ? "inline-flex" : "none";
 
             searchFilteredRecipes.forEach((recipe) => {
               const card = document.createElement("div");
@@ -164,10 +195,10 @@
                 "rounded-xl",
                 "overflow-hidden",
                 "shadow",
-                "recipe-card",  // Add recipe-card class for zoom effect
-                "transition",    // Smooth transition effect
-                "duration-300",  // Duration for smooth scaling
-                "ease-in-out",   // Smooth easing
+                "recipe-card", // Add recipe-card class for zoom effect
+                "transition", // Smooth transition effect
+                "duration-300", // Duration for smooth scaling
+                "ease-in-out", // Smooth easing
                 "animate-fade-in"
               );
 
@@ -185,7 +216,9 @@
           }
 
           function updateCategorySelection() {
-            const categoryItems = document.querySelectorAll("#categories-list .category-card");
+            const categoryItems = document.querySelectorAll(
+              "#categories-list .category-card"
+            );
             categoryItems.forEach((item) => {
               if (item.textContent === selectedCategory) {
                 item.classList.add("selected");
@@ -204,9 +237,11 @@
             }
           };
 
-          document.getElementById("sort-dropdown").addEventListener("change", () => {
-            filterRecipes();
-          });
+          document
+            .getElementById("sort-dropdown")
+            .addEventListener("change", () => {
+              filterRecipes();
+            });
 
           clearFilter.addEventListener("click", () => {
             selectedCategory = "All";
@@ -221,4 +256,3 @@
     </script>
   </body>
 </html>
-

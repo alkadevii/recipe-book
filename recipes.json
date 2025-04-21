@@ -9,6 +9,13 @@
       "image": "https://images.unsplash.com/photo-1687276287139-88f7333c8ca4?q=80&w=3543&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Snack",
       "rating": 4.5,
+      "nutrition": {
+      "calories": 320,
+      "protein": "9g",
+      "carbs": "29g",
+      "fat": "21g",
+      "fiber": "7g"
+    },
       "date": "2023-04-01"
     },
     {
@@ -21,7 +28,14 @@
       "image": "https://plus.unsplash.com/premium_photo-1671399555927-9b562d68c13a?q=80&w=3489&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Breakfast",
       "rating": 4.7,
-      "date": "2023-05-15"
+      "date": "2023-05-15",
+      "nutrition": {
+      "calories": 320,
+      "protein": "9g",
+      "carbs": "2g",
+      "fat": "27g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 3,
@@ -33,7 +47,14 @@
       "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2",
       "category": "Appetizer",
       "rating": 4.2,
-      "date": "2023-06-10"
+      "date": "2023-06-10",
+      "nutrition": {
+      "calories": 29,
+      "protein": "200g",
+      "carbs": "19g",
+      "fat": "54g",
+      "fiber": "27g"
+    }
     },
     {
       "id": 4,
@@ -45,7 +66,14 @@
       "image": "https://images.unsplash.com/photo-1622973536968-3ead9e780960?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Main Course",
       "rating": 4.8,
-      "date": "2023-03-20"
+      "date": "2023-03-20",
+      "nutrition": {
+      "calories": 320,
+      "protein": "19g",
+      "carbs": "19g",
+      "fat": "91g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 5,
@@ -57,7 +85,14 @@
       "image": "https://images.unsplash.com/photo-1631292784640-2b24be784d5d?q=80&w=3314&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Main Course",
       "rating": 4.6,
-      "date": "2023-02-11"
+      "date": "2023-02-11",
+      "nutrition": {
+      "calories": 320,
+      "protein": "59g",
+      "carbs": "29g",
+      "fat": "22g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 6,
@@ -69,7 +104,14 @@
       "image": "https://images.unsplash.com/photo-1495214783159-3503fd1b572d",
       "category": "Breakfast",
       "rating": 4.3,
-      "date": "2023-07-05"
+      "date": "2023-07-05",
+      "nutrition": {
+      "calories": 320,
+      "protein": "9g",
+      "carbs": "29g",
+      "fat": "21g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 7,
@@ -81,7 +123,14 @@
       "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
       "category": "Main Course",
       "rating": 4.1,
-      "date": "2023-08-15"
+      "date": "2023-08-15",
+      "nutrition": {
+      "calories": 320,
+      "protein": "9g",
+      "carbs": "67g",
+      "fat": "21g",
+      "fiber": "9g"
+    }
     },
     {
       "id": 8,
@@ -93,7 +142,14 @@
       "image": "https://plus.unsplash.com/premium_photo-1695035006295-d37b73003e27?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Snack",
       "rating": 4.4,
-      "date": "2023-05-22"
+      "date": "2023-05-22",
+      "nutrition": {
+      "calories": 320,
+      "protein": "9g",
+      "carbs": "79g",
+      "fat": "31g",
+      "fiber": "17g"
+    }
     },
     {
       "id": 9,
@@ -105,7 +161,14 @@
       "image": "https://images.unsplash.com/photo-1566843972705-1aad0ee32f88?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Main Course",
       "rating": 4.9,
-      "date": "2023-04-10"
+      "date": "2023-04-10",
+      "nutrition": {
+      "calories": 320,
+      "protein": "23g",
+      "carbs": "19g",
+      "fat": "21g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 10,
@@ -117,7 +180,14 @@
       "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=2678&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Dessert",
       "rating": 4.8,
-      "date": "2023-03-17"
+      "date": "2023-03-17",
+      "nutrition": {
+      "calories": 320,
+      "protein": "9g",
+      "carbs": "29g",
+      "fat": "21g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 11,
@@ -129,7 +199,14 @@
       "image": "https://images.unsplash.com/photo-1590412200988-a436970781fa?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Breakfast",
       "rating": 4.3,
-      "date": "2023-02-05"
+      "date": "2023-02-05",
+      "nutrition": {
+      "calories": 200,
+      "protein": "9g",
+      "carbs": "29g",
+      "fat": "21g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 12,
@@ -141,7 +218,14 @@
       "image": "https://plus.unsplash.com/premium_photo-1707935175468-46bec1df8fc3?q=80&w=3872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Main Course",
       "rating": 4.6,
-      "date": "2023-07-18"
+      "date": "2023-07-18",
+      "nutrition": {
+      "calories": 220,
+      "protein": "15g",
+      "carbs": "29g",
+      "fat": "22g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 13,
@@ -153,7 +237,14 @@
       "image": "https://plus.unsplash.com/premium_photo-1681406995009-36bf99ce02ad?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Main Course",
       "rating": 4.2,
-      "date": "2023-06-08"
+      "date": "2023-06-08",
+      "nutrition": {
+      "calories": 420,
+      "protein": "11g",
+      "carbs": "39g",
+      "fat": "21g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 14,
@@ -165,7 +256,14 @@
       "image": "https://plus.unsplash.com/premium_photo-1701013639018-8cdf9f5a7b80?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Main Course",
       "rating": 4.7,
-      "date": "2023-09-04"
+      "date": "2023-09-04",
+      "nutrition": {
+      "calories": 100,
+      "protein": "9g",
+      "carbs": "89g",
+      "fat": "21g",
+      "fiber": "6g"
+    }
     },
     {
       "id": 15,
@@ -177,7 +275,14 @@
       "image": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?q=80&w=3987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Drink",
       "rating": 4.5,
-      "date": "2023-08-12"
+      "date": "2023-08-12",
+      "nutrition": {
+      "calories": 300,
+      "protein": "9g",
+      "carbs": "56g",
+      "fat": "21g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 16,
@@ -189,7 +294,14 @@
       "image": "https://plus.unsplash.com/premium_photo-1695127909043-86a3dce3f65e?q=80&w=3677&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Snack",
       "rating": 4.4,
-      "date": "2023-07-22"
+      "date": "2023-07-22",
+      "nutrition": {
+      "calories": 390,
+      "protein": "9g",
+      "carbs": "29g",
+      "fat": "21g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 17,
@@ -201,7 +313,14 @@
       "image": "https://plus.unsplash.com/premium_photo-1712949140529-203336f93d17?q=80&w=3987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Main Course",
       "rating": 4.6,
-      "date": "2023-04-15"
+      "date": "2023-04-15",
+      "nutrition": {
+      "calories": 320,
+      "protein": "9g",
+      "carbs": "89g",
+      "fat": "21g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 18,
@@ -213,7 +332,14 @@
       "image": "https://plus.unsplash.com/premium_photo-1664472670740-76504463a146?q=80&w=3950&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Main Course",
       "rating": 4.8,
-      "date": "2023-08-03"
+      "date": "2023-08-03",
+      "nutrition": {
+      "calories": 320,
+      "protein": "9g",
+      "carbs": "29g",
+      "fat": "21g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 19,
@@ -225,7 +351,14 @@
       "image": "https://plus.unsplash.com/premium_photo-1712678665862-3c51d1fac466?q=80&w=3987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Main Course",
       "rating": 4.3,
-      "date": "2023-09-18"
+      "date": "2023-09-18",
+      "nutrition": {
+      "calories": 320,
+      "protein": "9g",
+      "carbs": "29g",
+      "fat": "21g",
+      "fiber": "7g"
+    }
     },
     {
       "id": 20,
@@ -237,7 +370,14 @@
       "image": "https://images.unsplash.com/photo-1688807450144-9d10de5eb913?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Appetizer",
       "rating": 4.6,
-      "date": "2023-07-30"
+      "date": "2023-07-30",
+      "nutrition": {
+      "calories": 110,
+      "protein": "9g",
+      "carbs": "29g",
+      "fat": "21g",
+      "fiber": "7g"
+    }
     }
   ]
   
